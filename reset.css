@@ -1,0 +1,80 @@
+/* Elimina el margen y el padding de todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Elimina el borde de las imágenes y otros medios incrustados */
+img,
+embed,
+object,
+video {
+    border: 0;
+}
+
+/* Asegura que los elementos HTML5 se muestran correctamente */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/* Hereda los estilos de fuente para formularios */
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+
+/* Elimina los bullets de las listas */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Asegura que los enlaces no tengan decoraciones por defecto */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Elimina el borde y el padding de los campos de formulario en navegadores móviles */
+input,
+button,
+textarea,
+select {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+/* Asegura que los títulos no tengan margen por defecto */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+/* Establece un tamaño de base para el documento */
+html {
+    font-size: 100%;
+}
+
+/* Establece un tamaño de fuente base para el cuerpo del documento */
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+}
